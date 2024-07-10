@@ -34,7 +34,8 @@ function Heros() {
           alt="Color mode icon"
           onClick={toggleTheme}
         />
-        <p className={styles.colorMode2}><b>↑click </b></p>
+        <h1><p className={styles.colorMode2}><b>↑click </b></p></h1>
+       
       </div>
       <div className={styles.info}>
         <h1 className={styles.name}><b>

@@ -1,0 +1,74 @@
+.container {
+   
+    text-align: center; /* Add this line to center the text */
+    justify-content: space-evenly;
+    align-self: left;
+    flex-wrap: wrap;
+    span {
+      display: inline-block;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    
+  }
+  .para {
+    text-align: center; /* Add this line to center the text */
+    justify-content: space-evenly;
+    align-self: left;
+    flex-wrap: wrap;
+    }
+  .sk{
+    text-align: center; /* Add this line to center the text */
+    justify-content: space-evenly;
+    align-self: left;
+    flex-wrap: wrap;
+  }
+  .skillLis {
+    display: flex;
+    text-align: center; /* Add this line to center the text */
+    justify-content: center;
+    max-width: 260ch;
+    margin-top: 50px;
+    gap: 100px; /* Adjust this value to reduce the gap */
+
+  }
+  .hrr{
+    margin-top: 2px;
+    width: 100px;
+    height: 1px;
+    border: none;
+    background-color: var(--text-color);
+  }
+  .hrrr
+  {
+    width: 150px;
+    height: 2px;
+    border: none;
+    margin-bottom: 1px;
+    background-color: var(--text-color);
+    /* margin: 30px auto;  } */
+  }
+  hr {
+    width: 100px;
+    height: 1px;
+    border: none;
+    background-color: var(--text-color);
+    margin: 30px auto;
+  }
+  
+  @media (width >= 800px) {
+    .skillList {
+      max-width: fit-content;
+      gap: 30px;
+  
+      p {
+        font-size: 20px;
+      }
+    }
+  
+    hr {
+      width: 300px;
+    }
+  }
+  
